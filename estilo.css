@@ -1,1 +1,125 @@
 @import "fonts/stylesheet.css";
+
+#recipiente{
+    background: linear-gradient(to bottom, #f6f1b2, #4599b2);
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d3d3d3;
+}
+
+#cabecalho{
+    float: right;
+    width: 646px;
+    line-height: 0.5;
+}
+
+#recipiente h1{
+    text-align: center;
+    color: #e90c0c;
+    font-family: Ravie;
+}
+
+.sub{
+	font-family: 'Trebuchet MS';
+	font-size: 24px;
+	color: #333;
+	text-align: center;
+	padding-left: 140px;
+}
+
+.subroxo{
+    color: #d027aa;
+}
+
+#cardapio{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #aac0ae;
+    float: right;
+    width: 646px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-family: 'Verdana';
+    color: #333;
+}
+
+#cardapio h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#cardapio p{
+    font-size: 14px;
+}
+
+#lateral{
+    
+    position: relative;
+}
+
+
+#lateral h2{
+    font-family: Verdana;
+    color: #333;
+    font-size: 48px;
+    transform: rotate(270deg);
+    position:absolute;
+    top: 215px;
+    left: -45px;
+}
+
+
+.preco{
+    float: right;
+    padding-right: 15px;
+    
+}
+.siri{
+   position: absolute;
+   top: 7px;
+   left: -10px;
+}
+
+
+.bolhas{
+   position: absolute;
+   right: 670px;
+   top: 440px;
+}
+
+.peixe{
+   position: absolute;
+   left: -44px;
+   bottom: -70px;
+   top: 680px;
+}
+
+#rodape{
+    clear: right;
+    position: relative;
+    padding-top: 46px;
+    left: 695px;
+}
+
+#ticket {
+        position: fixed;
+        Top: 295px;
+        float: left;
+        size: 89px;
+        width: 89px;
+        height: 60px;
+}
+
+.tck{
+    visibility: visible;    
+}
+
+.tck:hover{
+    
+    visibility: hidden;
+}
+
